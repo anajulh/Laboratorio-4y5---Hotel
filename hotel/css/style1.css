@@ -1,0 +1,222 @@
+/*Estilo Contenedor*/
+.principal{
+  width: 1500px;
+  margin: 0 auto;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: #666 5px 5px 5px;
+  -moz-box-shadow: #666 5px 5px 5px;
+  box-shadow: #666 5px 5px 5px;
+  background: #E6EBEB;
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#E6EBEB), to(#056B68));
+  background: -webkit-linear-gradient(#E6EBEB, #056B68);
+  background: -moz-linear-gradient(#E6EBEB, #056B68);
+  background: -ms-linear-gradient(#E6EBEB, #056B68);
+  background: -o-linear-gradient(#E6EBEB, #056B68);
+  background: linear-gradient(#E6EBEB, #056B68);
+  -pie-background: linear-gradient(#E6EBEB, #056B68);
+  behavior: url(/pie/PIE.htc);
+}
+/*Estilo Menu Izquierda*/
+.menusupiz{
+  width: 640px;
+  height: 100px;
+  margin: 10px 0px 10px 10px;
+  float: left;
+  -webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+-webkit-box-shadow: #666 2px 2px 2px;
+-moz-box-shadow: #666 2px 2px 2px;
+box-shadow: #666 2px 2px 2px;
+background: #0EB4AF;
+background: -webkit-gradient(linear, 0 0, 0 bottom, from(#0EB4AF), to(#000000));
+background: -webkit-linear-gradient(#0EB4AF, #000000);
+background: -moz-linear-gradient(#0EB4AF, #000000);
+background: -ms-linear-gradient(#0EB4AF, #000000);
+background: -o-linear-gradient(#0EB4AF, #000000);
+background: linear-gradient(#0EB4AF, #000000);
+-pie-background: linear-gradient(#0EB4AF, #000000);
+behavior: url(/pie/PIE.htc);
+}
+.menusupiz ul a{
+  text-decoration: none;
+  font-family: sans-serif;
+  font-style: oblique;
+  padding-bottom: 50px;
+}
+  .menusupiz li{
+    display: inline;
+    margin-left: 80px;
+  }
+.header img{
+width: 200px;
+height: 175px;
+}
+/*Estilo Menu Derecha*/
+.menusupder{
+  width: 640px;
+  height: 100px;
+  margin: 10px 10px 10px 0px;
+  float: right;
+  -webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+-webkit-box-shadow: #666 2px 2px 2px;
+-moz-box-shadow: #666 2px 2px 2px;
+box-shadow: #666 2px 2px 2px;
+background: #0EB4AF;
+background: -webkit-gradient(linear, 0 0, 0 bottom, from(#0EB4AF), to(#000000));
+background: -webkit-linear-gradient(#0EB4AF, #000000);
+background: -moz-linear-gradient(#0EB4AF, #000000);
+background: -ms-linear-gradient(#0EB4AF, #000000);
+background: -o-linear-gradient(#0EB4AF, #000000);
+background: linear-gradient(#0EB4AF, #000000);
+-pie-background: linear-gradient(#0EB4AF, #000000);
+behavior: url(/pie/PIE.htc);
+}
+.menusupder ul a{
+  text-decoration: none;
+  font-family: sans-serif;
+  font-style: oblique
+}
+.menusupder li{
+  display: inline;
+  margin-left: 80px;
+  padding-top: 60px;
+}
+.clear{
+  clear: both;
+}
+/*Estilo Imagen Hotel*/
+img{
+  width: 1460px;
+}
+/*Estilo Columna 1 Texto*/
+.columnaiz1{
+width: 500px;
+margin: 35px 15px 10px 50px;
+float: left;
+text-align: justify; color: #000000;
+text-indent: 3em;
+padding: 15px;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+-webkit-box-shadow: #666 3px 3px 3px;
+-moz-box-shadow: #666 3px 3px 3px;
+box-shadow: #666 3px 3px 3px;
+background: #E6EBEB;
+background: -webkit-gradient(linear, 0 0, 0 bottom, from(#E6EBEB), to(#DEDEDE));
+background: -webkit-linear-gradient(#E6EBEB, #DEDEDE);
+background: -moz-linear-gradient(#E6EBEB, #DEDEDE);
+background: -ms-linear-gradient(#E6EBEB, #DEDEDE);
+background: -o-linear-gradient(#E6EBEB, #DEDEDE);
+background: linear-gradient(#E6EBEB, #DEDEDE);
+-pie-background: linear-gradient(#E6EBEB, #DEDEDE);
+behavior: url(/pie/PIE.htc);
+}
+/*Estilo Columna 2 Imagenes*/
+.columnader2 img{
+  width: 818px;
+  margin: 35px 50px 10px 15px;
+  float: right;
+}
+columnader2{
+    display: block;
+}
+/*Estilo Columna 3 Video*/
+.columna3{
+height: 480px;
+margin-top: 30px;
+margin-left: 340px;
+float: left;
+}
+/*Estilo Columna 4 Texto*/
+.columna4{
+width: 500px;
+margin-top: 50px;
+margin-left: 150px;
+margin-bottom: 50px;
+float: left;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+-webkit-box-shadow: #666 4px 4px 4px;
+-moz-box-shadow: #666 4px 4px 4px;
+box-shadow: #666 4px 4px 4px;
+background: #E6EBEB;
+background: -webkit-gradient(linear, 0 0, 0 bottom, from(#E6EBEB), to(#DEDEDE));
+background: -webkit-linear-gradient(#E6EBEB, #DEDEDE);
+background: -moz-linear-gradient(#E6EBEB, #DEDEDE);
+background: -ms-linear-gradient(#E6EBEB, #DEDEDE);
+background: -o-linear-gradient(#E6EBEB, #DEDEDE);
+background: linear-gradient(#E6EBEB, #DEDEDE);
+-pie-background: linear-gradient(#E6EBEB, #DEDEDE);
+behavior: url(/pie/PIE.htc);
+}
+.columna4 li{
+  text-align: left; color: black;
+  font-size: 150%;
+}
+/*Estilo Columna 5 Texto*/
+.columna5{
+width: 500px;
+margin-top: 50px;
+margin-left: 115px;
+margin-bottom: 50px;
+float: left;
+padding: 50px;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+-webkit-box-shadow: #666 4px 4px 4px;
+-moz-box-shadow: #666 4px 4px 4px;
+box-shadow: #666 4px 4px 4px;
+background: #E6EBEB;
+background: -webkit-gradient(linear, 0 0, 0 bottom, from(#E6EBEB), to(#DEDEDE));
+background: -webkit-linear-gradient(#E6EBEB, #DEDEDE);
+background: -moz-linear-gradient(#E6EBEB, #DEDEDE);
+background: -ms-linear-gradient(#E6EBEB, #DEDEDE);
+background: -o-linear-gradient(#E6EBEB, #DEDEDE);
+background: linear-gradient(#E6EBEB, #DEDEDE);
+-pie-background: linear-gradient(#E6EBEB, #DEDEDE);
+behavior: url(/pie/PIE.htc);
+}
+.columna5 p{
+  text-align: center; color: black;
+}
+/*Estilo Pie de Pagina*/
+.footer{
+  width: 1200px;
+  height: 80px;
+  margin: 10px 150px 15px 150px;
+  float: left;
+  padding-top: -15px;
+  padding-left: : 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: #666 2px 2px 2px;
+  -moz-box-shadow: #666 2px 2px 2px;
+  box-shadow: #666 2px 2px 2px;
+  background: #0EB4AF;
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#0EB4AF), to(#000000));
+  background: -webkit-linear-gradient(#0EB4AF, #000000);
+  background: -moz-linear-gradient(#0EB4AF, #000000);
+  background: -ms-linear-gradient(#0EB4AF, #000000);
+  background: -o-linear-gradient(#0EB4AF, #000000);
+  background: linear-gradient(#0EB4AF, #000000);
+  -pie-background: linear-gradient(#0EB4AF, #000000);
+  behavior: url(/pie/PIE.htc);
+}
+.footer h6{
+  text-align: justify;;
+  margin: 10px 15px 10px 50px;
+}
+.footer p{
+  text-align: center;
+}

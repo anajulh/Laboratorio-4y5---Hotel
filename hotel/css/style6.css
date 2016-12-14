@@ -1,0 +1,258 @@
+/*Estilo Contenedor*/
+.principal{
+  width: 1500px;
+  margin: 0 auto;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: #666 5px 5px 5px;
+  -moz-box-shadow: #666 5px 5px 5px;
+  box-shadow: #666 5px 5px 5px;
+  background: #E6EBEB;
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#E6EBEB), to(#056B68));
+  background: -webkit-linear-gradient(#E6EBEB, #056B68);
+  background: -moz-linear-gradient(#E6EBEB, #056B68);
+  background: -ms-linear-gradient(#E6EBEB, #056B68);
+  background: -o-linear-gradient(#E6EBEB, #056B68);
+  background: linear-gradient(#E6EBEB, #056B68);
+  -pie-background: linear-gradient(#E6EBEB, #056B68);
+  behavior: url(/pie/PIE.htc);
+}
+/*Estilo Menu Izquierda*/
+.menusupiz{
+  width: 640px;
+  height: 100px;
+  margin: 10px 0px 10px 10px;
+  float: left;
+  -webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+-webkit-box-shadow: #666 2px 2px 2px;
+-moz-box-shadow: #666 2px 2px 2px;
+box-shadow: #666 2px 2px 2px;
+background: #0EB4AF;
+background: -webkit-gradient(linear, 0 0, 0 bottom, from(#0EB4AF), to(#000000));
+background: -webkit-linear-gradient(#0EB4AF, #000000);
+background: -moz-linear-gradient(#0EB4AF, #000000);
+background: -ms-linear-gradient(#0EB4AF, #000000);
+background: -o-linear-gradient(#0EB4AF, #000000);
+background: linear-gradient(#0EB4AF, #000000);
+-pie-background: linear-gradient(#0EB4AF, #000000);
+behavior: url(/pie/PIE.htc);
+}
+.menusupiz ul a{
+  text-decoration: none;
+  font-family: sans-serif;
+  font-style: oblique;
+  padding-bottom: 50px;
+}
+  .menusupiz li{
+    display: inline;
+    margin-left: 80px;
+  }
+.header img{
+width: 196px;
+height: 175px;
+}
+/*Estilo Menu Derecha*/
+.menusupder{
+  width: 640px;
+  height: 100px;
+  margin: 10px 10px 10px 0px;
+  float: right;
+  -webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+-webkit-box-shadow: #666 2px 2px 2px;
+-moz-box-shadow: #666 2px 2px 2px;
+box-shadow: #666 2px 2px 2px;
+background: #0EB4AF;
+background: -webkit-gradient(linear, 0 0, 0 bottom, from(#0EB4AF), to(#000000));
+background: -webkit-linear-gradient(#0EB4AF, #000000);
+background: -moz-linear-gradient(#0EB4AF, #000000);
+background: -ms-linear-gradient(#0EB4AF, #000000);
+background: -o-linear-gradient(#0EB4AF, #000000);
+background: linear-gradient(#0EB4AF, #000000);
+-pie-background: linear-gradient(#0EB4AF, #000000);
+behavior: url(/pie/PIE.htc);
+}
+.menusupder ul a{
+  text-decoration: none;
+  font-family: sans-serif;
+  font-style: oblique
+}
+.menusupder li{
+  display: inline;
+  margin-left: 80px;
+  padding-top: 60px;
+}
+.clear{
+  clear: both;
+}
+
+/*Estilo Formulario de Redes*/
+.contacto-redes{
+  margin-left: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 0;
+  float: left;
+}
+.contacto-redes li{
+  list-style-type: none;
+}
+
+/*Estilo Formulario de contacto*/
+.formulario{
+  width: 550px;
+  margin-left: 50px;
+  margin-top: 50px;
+  background-color: #f4efcb;
+  float: left;
+}
+.contact_form h2 {
+    background: none repeat scroll 0 0 #c1bfbf;
+    border-radius: 5px;
+    color: #164a20;
+    display: block;
+    font-family: calibri;
+    font-size: 20px;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #CCCCCC;
+    width: 500px;
+}
+/*— estilos para los ul y li del formulario —*/
+.contact_form ul {
+    width:500px;
+    list-style-type:none;
+margin:0px;
+padding:0px;
+}
+.contact_form li{
+padding:12px;
+border-bottom:1px solid #eee;
+position:relative;
+}
+.contact_form label {
+    color: #555555;
+    display: inline-block;
+    float: left;
+    font-family: calibri;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 3px;
+    padding: 3px;
+    width: 90px;
+}
+.contact_form input {
+height:20px;
+width:220px;
+padding:5px 8px;
+}
+.contact_form textarea {
+padding:8px;
+width:300px;
+}
+.contact_form button {
+margin-left:90px;
+}
+
+/*—– estilos visuales de los elementos ——–*/
+
+.contact_form input, .contact_form textarea {
+border:1px solid #aaa;
+box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+border-radius:2px;
+color: #888;
+font-size: 12px;
+padding-right:30px;
+-moz-transition: padding .25s;
+-webkit-transition: padding .25s;
+-o-transition: padding .25s;
+transition: padding .25s;
+}
+.contact_form input:focus, .contact_form textarea:focus {
+background: #fff;
+border:1px solid #555;
+box-shadow: 0 0 3px #aaa;
+padding-right:80px;
+}
+
+/* === Estilos de Validacion === */
+
+.contact_form input:required:valid, .contact_form textarea:required:valid {
+box-shadow: 0 0 5px #5cd053;
+border-color: #28921f;
+}
+.contact_form input:focus:invalid, .contact_form textarea:focus:invalid {
+box-shadow: 0 0 5px #d45252;
+border-color: #b03535
+}
+
+/* === Estilos del boton de Envio === */
+button.submit {
+    padding: 9px 17px;
+   font-family: Helvetica,calibri, Arial, sans-serif;
+   font-weight: bold;
+   line-height: 1;
+   color: #444;
+   border: none;
+   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.85);
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#bbb));
+   background-image: -moz-linear-gradient(0% 100% 90deg, #BBBBBB, #FFFFFF);
+   background-color: #fff;
+   border: 1px solid #f1f1f1;
+   border-radius: 10px;
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+button.submit:hover {
+opacity:.55;
+cursor: pointer;
+color: #fff;
+}
+button.submit:active {
+border: 1px solid #222;
+box-shadow: 0 0 10px 5px #444 inset;
+}
+
+/*Estilo Mapa*/
+.mapa{
+  margin-left: 130px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  float: left;
+}
+
+/*Estilo Pie de Pagina*/
+.footer{
+  width: 1200px;
+  height: 80px;
+  margin: 10px 150px 15px 150px;
+  float: left;
+  padding-top: -15px;
+  padding-left: : 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: #666 2px 2px 2px;
+  -moz-box-shadow: #666 2px 2px 2px;
+  box-shadow: #666 2px 2px 2px;
+  background: #0EB4AF;
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#0EB4AF), to(#000000));
+  background: -webkit-linear-gradient(#0EB4AF, #000000);
+  background: -moz-linear-gradient(#0EB4AF, #000000);
+  background: -ms-linear-gradient(#0EB4AF, #000000);
+  background: -o-linear-gradient(#0EB4AF, #000000);
+  background: linear-gradient(#0EB4AF, #000000);
+  -pie-background: linear-gradient(#0EB4AF, #000000);
+  behavior: url(/pie/PIE.htc);
+}
+.footer h6{
+  text-align: justify;;
+  margin: 10px 15px 10px 50px;
+}
+.footer p{
+  text-align: center;
+}
